@@ -1,0 +1,16 @@
+{
+    "configurations": [
+        {
+            "name":"WASM",
+            "includePath": [
+                "${workspaceFolder}/**"
+            ],
+            "defines": [],
+            "compilerPath": "${env:WASI_SDK_HOME}/bin/clang++",
+            "cStandard": "c11",
+            "cppStandard": "c++20",
+            "intelliSenseMode": "clang-arm"
+        }
+    ],
+    "version":4
+ }
