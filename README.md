@@ -12,7 +12,7 @@ $ cmake -Bbuild -DCMAKE_BUILD_TYPE=Release -DWASI_SDK_PREFIX=${WASI_SDK_HOME} -D
 $ cmake --build build
 $
 $ wasmedge --version
-$ wasmedge version 0.10.0-alpha.1
+wasmedge version 0.10.0-alpha.1
 $ wasmedge build/http_get.wasm
 [2022-05-16 15:12:01.090] [error] wasmedge_process module not founded.
 <!doctype html>
